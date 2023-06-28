@@ -1,0 +1,129 @@
+.chatContainer {
+  max-width: 1200px;
+  max-height: 1000px;
+  margin: 0 auto;
+}
+
+.chatMessageContainer {
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatContent {
+  flex-grow: 1;
+  margin-right: 1rem;
+}
+
+.chatVotes {
+  display: flex;
+  gap: 1rem;
+}
+
+.chatUpvoteButton,
+.chatDownvoteButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #007bff;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+
+
+.chatForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.chatFormInput {
+  flex-grow: 1;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.chatFormButton {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.chatUser {
+  font-weight: bold;
+  color: #007bff;
+}
+
+
+.lightMode {
+  background-color: #fff;
+  color: #000;
+}
+
+.darkMode {
+  background-color: #000;
+  color: #fff;
+}
+
+.themeButton {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+
+
+.logoutButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logoutButton:hover {
+  background-color: #cc0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
